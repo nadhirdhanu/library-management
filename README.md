@@ -7,8 +7,10 @@
 1. Validation: Login, Logout, Check login status
 2. Manage book: Add book, Edit book, Delete book, Find book, View book
 3. Manage member: Add member, Edit member, Delete member, Find member, View member
-4. Manage book lending: Add lending, Edit lending, Delete lending, Find lending, View lending
+4. Manage loan: Add loan, Edit loan, Delete loan, Find loan, View loan
 5. Manage Admin: Add admin, Edit admin, Delete admin, Find admin, View admin
+### Scenario
+1. Validation
 ## 2. Diagram Kelas
 ## 3. Diagram Objek
 ## 4. Diagram Sekuen
