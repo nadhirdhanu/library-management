@@ -9,5 +9,7 @@
 4. Manage loan: Add loan, Edit loan, Delete loan, Find loan, View loan
 5. Manage Admin: Add admin, Edit admin, Delete admin, Find admin, View admin
 ### Diagram
-#### [Library Use Case Diagram](https://github.com/nadhirdhanu/library-management/blob/main/library_use_case_diagram.svg)
-#### [Library Activity Diagram](https://github.com/nadhirdhanu/library-management/blob/main/library_activity_diagram.svg)
+#### [Use Case Diagram](https://github.com/nadhirdhanu/library-management/blob/main/library_use_case_diagram.svg)
+#### [Activity Diagram](https://github.com/nadhirdhanu/library-management/blob/main/library_activity_diagram.svg)
+#### [Component Diagram](https://github.com/nadhirdhanu/library-management/blob/main/comp-diag.jpeg)
+#### [Deployment Diagram](https://github.com/nadhirdhanu/library-management/blob/main/deploy-diag.jpeg)
