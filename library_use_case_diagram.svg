@@ -1,0 +1,211 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8f9fa"/>
+  
+  <!-- System Boundary -->
+  <rect x="250" y="80" width="900" height="800" fill="none" stroke="#2c3e50" stroke-width="3" stroke-dasharray="10,5" rx="10"/>
+  <text x="700" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#2c3e50">Library Management System</text>
+  
+  <!-- Actors -->
+  <!-- Admin Actor -->
+  <g id="admin-actor">
+    <ellipse cx="120" cy="200" rx="18" ry="12" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <rect x="108" y="212" width="24" height="35" fill="none" stroke="#3498db" stroke-width="2"/>
+    <line x1="96" y1="229" x2="144" y2="229" stroke="#3498db" stroke-width="2"/>
+    <line x1="114" y1="247" x2="102" y2="270" stroke="#3498db" stroke-width="2"/>
+    <line x1="126" y1="247" x2="138" y2="270" stroke="#3498db" stroke-width="2"/>
+    <text x="120" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Admin</text>
+  </g>
+  
+  <!-- Member/Guest Actor -->
+  <g id="member-actor">
+    <ellipse cx="120" cy="650" rx="18" ry="12" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <rect x="108" y="662" width="24" height="35" fill="none" stroke="#27ae60" stroke-width="2"/>
+    <line x1="96" y1="679" x2="144" y2="679" stroke="#27ae60" stroke-width="2"/>
+    <line x1="114" y1="697" x2="102" y2="720" stroke="#27ae60" stroke-width="2"/>
+    <line x1="126" y1="697" x2="138" y2="720" stroke="#27ae60" stroke-width="2"/>
+    <text x="120" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Member/Guest</text>
+  </g>
+  
+  <!-- Use Cases -->
+  
+  <!-- Authentication Use Cases (Top Left) -->
+  <g id="validation-group">
+    <text x="350" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#8e44ad">Authentication</text>
+    
+    <ellipse cx="350" cy="160" rx="65" ry="28" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2"/>
+    <text x="350" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Login</text>
+    
+    <ellipse cx="500" cy="160" rx="65" ry="28" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2"/>
+    <text x="500" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Logout</text>
+    
+    <ellipse cx="425" cy="220" rx="80" ry="28" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2"/>
+    <text x="425" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Check Status</text>
+  </g>
+  
+  <!-- Book Management Use Cases (Top Right) -->
+  <g id="book-group">
+    <text x="750" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e67e22">Book Management</text>
+    
+    <ellipse cx="700" cy="160" rx="60" ry="28" fill="#fdf2e9" stroke="#e67e22" stroke-width="2"/>
+    <text x="700" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Add Book</text>
+    
+    <ellipse cx="800" cy="160" rx="60" ry="28" fill="#fdf2e9" stroke="#e67e22" stroke-width="2"/>
+    <text x="800" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Edit Book</text>
+    
+    <ellipse cx="900" cy="160" rx="65" ry="28" fill="#fdf2e9" stroke="#e67e22" stroke-width="2"/>
+    <text x="900" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Delete Book</text>
+    
+    <ellipse cx="750" cy="220" rx="60" ry="28" fill="#fdf2e9" stroke="#e67e22" stroke-width="2"/>
+    <text x="750" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Find Book</text>
+    
+    <ellipse cx="850" cy="220" rx="60" ry="28" fill="#fdf2e9" stroke="#e67e22" stroke-width="2"/>
+    <text x="850" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">View Book</text>
+  </g>
+  
+  <!-- Member Management Use Cases (Middle Left) -->
+  <g id="member-group">
+    <text x="350" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">Member Management</text>
+    
+    <ellipse cx="350" cy="350" rx="70" ry="28" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="350" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Add Member</text>
+    
+    <ellipse cx="500" cy="350" rx="70" ry="28" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="500" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Edit Member</text>
+    
+    <ellipse cx="350" cy="410" rx="75" ry="28" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="350" y="416" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Delete Member</text>
+    
+    <ellipse cx="500" cy="410" rx="70" ry="28" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="500" y="416" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Find Member</text>
+    
+    <ellipse cx="425" cy="470" rx="70" ry="28" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="425" y="476" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">View Member</text>
+  </g>
+  
+  <!-- Loan Management Use Cases (Middle Right) -->
+  <g id="loan-group">
+    <text x="750" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">Loan Management</text>
+    
+    <ellipse cx="700" cy="350" rx="60" ry="28" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <text x="700" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Add Loan</text>
+    
+    <ellipse cx="800" cy="350" rx="60" ry="28" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <text x="800" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Edit Loan</text>
+    
+    <ellipse cx="900" cy="350" rx="65" ry="28" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <text x="900" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Delete Loan</text>
+    
+    <ellipse cx="750" cy="410" rx="60" ry="28" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <text x="750" y="416" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Find Loan</text>
+    
+    <ellipse cx="850" cy="410" rx="60" ry="28" fill="#e8f6f0" stroke="#27ae60" stroke-width="2"/>
+    <text x="850" y="416" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">View Loan</text>
+  </g>
+  
+  <!-- Admin Management Use Cases (Bottom Center) -->
+  <g id="admin-mgmt-group">
+    <text x="575" y="570" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">Admin Management</text>
+    
+    <ellipse cx="450" cy="600" rx="65" ry="28" fill="#fdeaea" stroke="#e74c3c" stroke-width="2"/>
+    <text x="450" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Add Admin</text>
+    
+    <ellipse cx="575" cy="600" rx="65" ry="28" fill="#fdeaea" stroke="#e74c3c" stroke-width="2"/>
+    <text x="575" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Edit Admin</text>
+    
+    <ellipse cx="700" cy="600" rx="70" ry="28" fill="#fdeaea" stroke="#e74c3c" stroke-width="2"/>
+    <text x="700" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Delete Admin</text>
+    
+    <ellipse cx="512" cy="660" rx="65" ry="28" fill="#fdeaea" stroke="#e74c3c" stroke-width="2"/>
+    <text x="512" y="666" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Find Admin</text>
+    
+    <ellipse cx="637" cy="660" rx="65" ry="28" fill="#fdeaea" stroke="#e74c3c" stroke-width="2"/>
+    <text x="637" y="666" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">View Admin</text>
+  </g>
+  
+  <!-- Admin Associations (Blue lines) -->
+  <!-- To Authentication -->
+  <line x1="180" y1="200" x2="285" y2="160" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="435" y2="160" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="345" y2="220" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- To Book Management -->
+  <line x1="180" y1="200" x2="640" y2="160" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="740" y2="160" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="835" y2="160" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="690" y2="220" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="790" y2="220" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- To Member Management -->
+  <line x1="180" y1="200" x2="280" y2="350" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="430" y2="350" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="275" y2="410" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="430" y2="410" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="355" y2="470" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- To Loan Management -->
+  <line x1="180" y1="200" x2="640" y2="350" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="740" y2="350" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="835" y2="350" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="690" y2="410" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="790" y2="410" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- To Admin Management -->
+  <line x1="180" y1="200" x2="385" y2="600" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="510" y2="600" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="630" y2="600" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="447" y2="660" stroke="#3498db" stroke-width="2"/>
+  <line x1="180" y1="200" x2="572" y2="660" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Member/Guest Associations (Green lines) -->
+  <!-- To Authentication -->
+  <line x1="180" y1="650" x2="285" y2="160" stroke="#27ae60" stroke-width="2"/>
+  <line x1="180" y1="650" x2="435" y2="160" stroke="#27ae60" stroke-width="2"/>
+  <line x1="180" y1="650" x2="345" y2="220" stroke="#27ae60" stroke-width="2"/>
+  
+  <!-- To Find/View Book only -->
+  <line x1="180" y1="650" x2="690" y2="220" stroke="#27ae60" stroke-width="2"/>
+  <line x1="180" y1="650" x2="790" y2="220" stroke="#27ae60" stroke-width="2"/>
+  
+  <!-- To View Loan only -->
+  <line x1="180" y1="650" x2="790" y2="410" stroke="#27ae60" stroke-width="2"/>
+  
+  <!-- Legend -->
+  <rect x="1200" y="150" width="180" height="200" fill="#ffffff" stroke="#bdc3c7" stroke-width="2" rx="8"/>
+  <text x="1290" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Legend</text>
+  
+  <!-- Admin line example -->
+  <line x1="1210" y1="195" x2="1250" y2="195" stroke="#3498db" stroke-width="3"/>
+  <text x="1260" y="200" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Admin access</text>
+  
+  <!-- Member line example -->
+  <line x1="1210" y1="215" x2="1250" y2="215" stroke="#27ae60" stroke-width="3"/>
+  <text x="1260" y="220" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Member access</text>
+  
+  <!-- Use case example -->
+  <ellipse cx="1230" cy="240" rx="25" ry="12" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2"/>
+  <text x="1260" y="245" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Use Case</text>
+  
+  <!-- Actor example -->
+  <ellipse cx="1225" cy="265" rx="8" ry="5" fill="#e8f4fd" stroke="#3498db" stroke-width="1"/>
+  <rect x="1220" y="270" width="10" height="12" fill="none" stroke="#3498db" stroke-width="1"/>
+  <text x="1240" y="277" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Actor</text>
+  
+  <!-- System boundary example -->
+  <rect x="1210" y="290" width="40" height="15" fill="none" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="1260" y="300" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">System</text>
+  <text x="1260" y="315" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Boundary</text>
+  
+  <!-- Notes for Backend Development -->
+  <rect x="1200" y="400" width="180" height="180" fill="#f0f8ff" stroke="#3498db" stroke-width="2" rx="8"/>
+  <text x="1290" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Backend Notes</text>
+  
+  <text x="1210" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Full CRUD for Admin</text>
+  <text x="1210" y="470" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Read-only for Members</text>
+  <text x="1210" y="490" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• JWT Authentication</text>
+  <text x="1210" y="510" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Role-based Access</text>
+  <text x="1210" y="530" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• RESTful APIs</text>
+  <text x="1210" y="550" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Data Validation</text>
+  <text x="1210" y="570" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Error Handling</text>
+  
+</svg>
