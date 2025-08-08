@@ -1,20 +1,14 @@
-# manajemen-perpustakaan
+# Library Management
 ## Use Case
 ### Actor
 1. Admin
 2. Member/guest
 ### Use Case
-1. Validation
-2. Login
-3. Logout
-4. Check login status
-5. Manage book
-6. Add book
-7. Edit book
-8. Delete book
-9. Find book
-10. View book
-11. Manage member
+1. Validation: Login, Logout, Check login status
+2. Manage book: Add book, Edit book, Delete book, Find book, View book
+3. Manage member: Add member, Edit member, Delete member, Find member, View member
+4. Manage book lending: Add lending, Edit lending, Delete lending, Find lending, View lending
+5. Manage Admin: Add admin, Edit admin, Delete admin, Find admin, View admin
 ## 2. Diagram Kelas
 ## 3. Diagram Objek
 ## 4. Diagram Sekuen
